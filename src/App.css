@@ -1,0 +1,128 @@
+.header {
+    display: flex;  
+    background: #000;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo p {
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    font-style: normal;
+  }
+  
+  .menu__item a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .menu__item a:hover {
+    color: red;
+  }
+  
+  .join {
+    border: 1px solid white;
+    padding: 0 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .join:hover {
+    color: black;
+    background: white;
+  }
+  
+  /* ------------------------- */
+  
+  .main {
+    padding-top: 3px;
+    background: hsl(233, 56%, 48%);
+    color: white;
+  }
+  
+  .hero-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    padding-top: 60px;
+  
+    background-image: url('./img/gym-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-block p {
+    font-size: 35px;
+    line-height: 2;
+  }
+  
+  .features {
+    padding: 30px;
+  }
+  
+  .features__title {
+    text-align: center;
+    font-size: 45px;
+    padding: 30px 0 50px;
+    border-bottom: 1px solid white;
+  }
+  
+  .features__item {
+    display: grid;
+    grid-template-columns: 120px repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .features__item h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .features img {
+    height: 100px;
+  }
+    
+  .footer {
+    padding: 30px 0;
+    background: black;
+    color: white;
+  }
+  
+  .footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer__contacts {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+  
+  .footer__text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+  }
