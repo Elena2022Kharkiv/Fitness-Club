@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Fitness-Club/static/css/main.7b7d2a69.css",
+    "main.js": "/Fitness-Club/static/js/main.6b546efa.js",
+    "static/media/gym-img.jpg": "/Fitness-Club/static/media/gym-img.ff48cebceb10374dc831.jpg",
+    "index.html": "/Fitness-Club/index.html",
+    "main.7b7d2a69.css.map": "/Fitness-Club/static/css/main.7b7d2a69.css.map",
+    "main.6b546efa.js.map": "/Fitness-Club/static/js/main.6b546efa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b7d2a69.css",
+    "static/js/main.6b546efa.js"
+  ]
+}
